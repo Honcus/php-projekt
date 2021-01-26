@@ -65,6 +65,78 @@ var_dump ($a&&$b);
 var_dump (!$a);
 
 
+
+
+
+echo "<br /><br />";
+echo "<strong>\Druhý úkol\</strong>";
+echo "<br /><br />";
+
+ $MichalHonek1 = 1;
+        $MichalHonek2 = 2;
+        
+        if ($MichalHonek1 < $MichalHonek2) {
+            echo "Michal Honek";
+        }
+        
+        echo "<br /><br />";
+        
+        if($MichalHonek1 < $MichalHonek2) {
+            echo "Michal";
+        }
+        else {
+            echo "Honek";
+        }
+        
+        echo "<br /><br />";
+        
+        
+        if ($MichalHonek1 > 14) {
+            echo "Michal";
+        }
+           if ($MichalHonek2 < 10) {
+               echo "Honek";
+           }
+           
+        echo "<br /><br />";
+        
+        switch ($MichalHonek2) {
+            case 1:
+                echo "1";
+                break;
+            case 2:
+                echo "2";
+                break;
+            case 3:
+                echo "3";
+                break;
+            case 4:
+                echo "4";
+                break;
+            case 5:
+                echo "5";
+                break;
+            case 6:
+                echo "6";
+                break;
+            default:
+                echo "neplatí";              
+        }
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         ?>
     </body>
 </html>
